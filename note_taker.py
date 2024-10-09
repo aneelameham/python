@@ -1,11 +1,11 @@
 notes = []
 
 while True:
-    choose = int(input("Menu:\n"
-                       "1. add a note\n"
-                       "2. view a note\n"
-                       "3. Exit\n"
-                       "Choose any of the option(1, 2, 3): "))
+    choose = int(input("""Menu:
+   1. add a note
+   2. view a note
+   3. Exit
+   Choose any of the option(1, 2, 3): """))
 
     match choose:
         case 1:
